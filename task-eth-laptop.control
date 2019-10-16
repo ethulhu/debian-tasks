@@ -1,0 +1,9 @@
+Source: task-eth-laptop
+Package: task-eth-laptop
+Section: misc
+Priority: optional
+Depends: alsa-utils, xss-lock, suckless-tools, feh, xinput, redshift, autocutsel
+Essential: no
+Version: -
+Maintainer: Eth Morgan <eth@ethulhu.co.uk>
+Description: This task selects packages for Eth's preferred setup for laptops.
