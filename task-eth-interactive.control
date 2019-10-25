@@ -2,7 +2,16 @@ Source: task-eth-interactive
 Package: task-eth-interactive
 Section: tasks
 Priority: optional
-Depends: tmux, vim, silversearcher-ag, golang, build-essential, ffmpeg, tig, git, moreutils, python3-pip
+Depends: build-essential,
+         ffmpeg,
+         git,
+         golang,
+         moreutils,
+         python3-pip
+         silversearcher-ag,
+         tig,
+         tmux,
+         vim
 Essential: no
 Version: -
 Maintainer: Eth Morgan <eth@ethulhu.co.uk>

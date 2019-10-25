@@ -2,7 +2,13 @@ Source: task-eth-laptop
 Package: task-eth-laptop
 Section: tasks
 Priority: optional
-Depends: alsa-utils, xss-lock, suckless-tools, feh, xinput, redshift, autocutsel
+Depends: alsa-utils,
+         autocutsel,
+         feh,
+         redshift,
+         suckless-tools,
+         xinput,
+         xss-lock
 Essential: no
 Version: -
 Maintainer: Eth Morgan <eth@ethulhu.co.uk>
