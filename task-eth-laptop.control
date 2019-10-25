@@ -4,9 +4,13 @@ Section: tasks
 Priority: optional
 Depends: alsa-utils,
          autocutsel,
+         fbi,
          feh,
+         mupdf,
+         mupdf-tools,
          redshift,
          suckless-tools,
+         xclip,
          xinput,
          xss-lock
 Essential: no
