@@ -1,6 +1,6 @@
 Source: task-eth-interactive
 Package: task-eth-interactive
-Section: misc
+Section: tasks
 Priority: optional
 Depends: tmux, vim, silversearcher-ag, golang, build-essential, ffmpeg, tig, git, moreutils, python3-pip
 Essential: no
