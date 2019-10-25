@@ -1,0 +1,14 @@
+Source: task-eth-base
+Package: task-eth-base
+Section: tasks
+Priority: optional
+Depends: moreutils,
+         mosh,
+         silversearcher-ag,
+         tmux,
+         vim,
+         w3m
+Essential: no
+Version: -
+Maintainer: Eth Morgan <eth@ethulhu.co.uk>
+Description: This task selects packages for Eth's minimum required setup.
