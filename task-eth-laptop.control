@@ -10,6 +10,8 @@ Depends: alsa-utils,
          mupdf-tools,
          redshift,
          suckless-tools,
+         task-eth-base,
+         task-eth-interactive,
          xclip,
          xinput,
          xss-lock
