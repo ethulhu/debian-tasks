@@ -12,5 +12,7 @@ clean:
 	rm -rf *.deb *.deb.dat
 
 %: %.control
+	cp $< $<.bak
 	sed -i "s/^Version:.*/Version: $(VERSION)/" $<
 	equivs-build $<
+	mv $<.bak $<
