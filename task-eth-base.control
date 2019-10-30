@@ -2,7 +2,10 @@ Source: task-eth-base
 Package: task-eth-base
 Section: tasks
 Priority: optional
-Depends: moreutils,
+Depends: cruft-ng,
+         curl,
+         htop,
+         moreutils,
          mosh,
          silversearcher-ag,
          tmux,
