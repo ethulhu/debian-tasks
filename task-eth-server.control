@@ -1,0 +1,11 @@
+Source: task-eth-server
+Package: task-eth-server
+Section: tasks
+Priority: optional
+Depends: task-eth-base,
+         nginx,
+         openssh-server
+Essential: no
+Version: -
+Maintainer: Eth Morgan <eth@ethulhu.co.uk>
+Description: This task selects packages for Eth's preferred setup for server machines.

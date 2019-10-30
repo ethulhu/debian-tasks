@@ -6,7 +6,7 @@ build:
 test: build
 	@true
 
-deb: clean task-eth-laptop task-eth-interactive task-eth-base
+deb: clean task-eth-laptop task-eth-interactive task-eth-base task-eth-server
 
 clean:
 	rm -rf *.deb *.deb.dat
