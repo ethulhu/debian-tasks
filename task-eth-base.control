@@ -4,9 +4,12 @@ Section: tasks
 Priority: optional
 Depends: cruft-ng,
          curl,
+         etckeeper,
          htop,
          moreutils,
          mosh,
+         net-tools,
+         rsync,
          silversearcher-ag,
          tmux,
          vim,

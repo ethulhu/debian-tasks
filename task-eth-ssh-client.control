@@ -1,0 +1,13 @@
+Source: task-eth-ssh-client
+Package: task-eth-ssh-client
+Section: tasks
+Priority: optional
+Depends: gpg,
+         openssh-client,
+         pcscd,
+         pinentry-curses,
+         scdaemon
+Essential: no
+Version: -
+Maintainer: Eth Morgan <eth@ethulhu.co.uk>
+Description: This task sets up your system to remotely access SSH servers using Yubikeys.
