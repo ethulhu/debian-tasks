@@ -4,6 +4,7 @@ Section: tasks
 Priority: optional
 Depends: build-essential,
          entr,
+         equivs,
          ffmpeg,
          fish,
          git,
