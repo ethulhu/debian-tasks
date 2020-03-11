@@ -4,6 +4,7 @@ Section: tasks
 Priority: optional
 Depends: cruft-ng,
          curl,
+         dnsutils,
          etckeeper,
          htop,
          moreutils,
