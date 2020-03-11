@@ -4,15 +4,20 @@ Section: tasks
 Priority: optional
 Depends: alsa-utils,
          autocutsel,
+         dwm,
          fbi,
          feh,
+         mpv,
          mupdf,
          mupdf-tools,
          redshift,
+         rxvt-unicode,
+         scdaemon,
          suckless-tools,
          task-eth-base,
          task-eth-interactive,
          xclip,
+         xinit,
          xinput,
          xss-lock
 Essential: no

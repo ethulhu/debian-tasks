@@ -3,6 +3,7 @@ Package: task-eth-interactive
 Section: tasks
 Priority: optional
 Depends: build-essential,
+         dos2unix,
          entr,
          equivs,
          ffmpeg,
@@ -16,7 +17,10 @@ Depends: build-essential,
          pylint3,
          python3,
          python3-autopep8,
+         python3-jinja2,
+         python3-netifaces,
          python3-pip,
+         python3-yaml,
          silversearcher-ag,
          task-eth-base,
          tidy,
