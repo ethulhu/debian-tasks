@@ -1,5 +1,7 @@
 VERSION := "$(shell date --utc +%Y%m%d.%H%M)-1"
 
+all: deb
+
 build:
 	@true
 
