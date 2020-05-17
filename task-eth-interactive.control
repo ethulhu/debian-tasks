@@ -24,7 +24,8 @@ Depends: build-essential,
          silversearcher-ag,
          task-eth-base,
          tidy,
-         tig
+         tig,
+         zip
 Essential: no
 Version: -
 Maintainer: Eth Morgan <eth@ethulhu.co.uk>

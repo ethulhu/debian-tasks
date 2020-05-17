@@ -3,6 +3,7 @@ Package: task-eth-server
 Section: tasks
 Priority: optional
 Depends: task-eth-base,
+         libpam-ssh-agent-auth,
          nginx,
          openssh-server
 Essential: no
